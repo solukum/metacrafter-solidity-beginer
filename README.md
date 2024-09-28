@@ -5,8 +5,8 @@ This is a simple Solidity smart contract that represents a basic token system wi
 ## Requirements
 
 1. The contract has public variables that store the details about the coin:
-   - **Token Name**: My Token
-   - **Token Abbreviation**: MTK
+   - **Token Name**: Solu Kumar
+   - **Token Abbreviation**: SOL
    - **Total Supply**: Starts at 0 but can be updated through minting and burning.
 
 2. The contract maintains a mapping of addresses to token balances.
@@ -31,8 +31,8 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // Public variables to store the token details
-    string public tokenName = "My Token";
-    string public tokenAbbrv = "MTK";
+    string public tokenName = "Solu Kumar";
+    string public tokenAbbrv = "SOL";
     uint public totalSupply;
 
     // Mapping to store balances
